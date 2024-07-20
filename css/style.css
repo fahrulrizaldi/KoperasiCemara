@@ -6,7 +6,16 @@ header{
     -webkit-text-stroke-width: thick;
 }
 
-nav {
+header .logo {
+    font-size: 2rem;
+    front-weight : 700;
+    color: rgba(0, 88, 4, 0.8);
+}
+
+header .logo span {
+    color:rgb(67, 138, 0)
+}
+.navbar {
     
     border : 1px solid;
     border-color: rgb(149, 235, 160);
@@ -35,6 +44,7 @@ ul {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #10adf0;
+    font-size: 2;
   }
 
   
