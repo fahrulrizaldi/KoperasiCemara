@@ -1,0 +1,40 @@
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    -webkit-text-stroke-width: thick;
+}
+
+nav {
+    
+    border : 1px solid;
+    border-color: rgb(149, 235, 160);
+    background-color: cadetblue;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #10adf0;
+  }
+
+  
